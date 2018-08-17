@@ -1,0 +1,60 @@
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.App {
+  text-align: center;
+  border: 5px solid #222;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.35);
+  -moz-box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.35);
+  box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.35);
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+.App-header {
+  background-color: #222;
+  min-height: 50px;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-footer {
+  background-color: #222;
+  min-height: 40px;
+  color: white;
+}
+
+.App-footer-wrapper {
+  padding: 10px;
+}
+
+.App-footer-title {
+  margin: 0;
+}
+
+.App-footer-title.f-left {
+  float: left;
+}
+.App-footer-title.f-right {
+  float: right;
+}
