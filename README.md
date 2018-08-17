@@ -1,6 +1,4 @@
-###Itemized Web App
-
-## Build Setup
+## Itemized Web App: Build Setup
 
 ``` bash
 
